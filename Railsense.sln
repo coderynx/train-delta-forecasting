@@ -1,0 +1,48 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Railsense.Cli", "src\Railsense.Cli\Railsense.Cli.csproj", "{56AFD47B-7676-4595-B866-1D77D5B71474}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Railsense.Core", "src\Railsense.Core\Railsense.Core.csproj", "{ACE09718-A194-40E5-8CD1-87E7C328D17D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Railsense.Data", "src\Railsense.Data\Railsense.Data.csproj", "{42321650-35D5-4C8F-98CD-DE271B1C018F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Railsense.Neural", "src\Railsense.Neural\Railsense.Neural.csproj", "{396FFE33-4FEC-4247-AEAA-4F77D7085272}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Railsense.Geospatial", "src\Railsense.Geospatial\Railsense.Geospatial.csproj", "{46AFD64E-4FEB-4B04-B0A3-D320463185F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Railsense.Mediator", "src\Railsense.Mediator\Railsense.Mediator.csproj", "{C7522597-B258-490A-9687-C35964D1F9F7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56AFD47B-7676-4595-B866-1D77D5B71474}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56AFD47B-7676-4595-B866-1D77D5B71474}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56AFD47B-7676-4595-B866-1D77D5B71474}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56AFD47B-7676-4595-B866-1D77D5B71474}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACE09718-A194-40E5-8CD1-87E7C328D17D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACE09718-A194-40E5-8CD1-87E7C328D17D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACE09718-A194-40E5-8CD1-87E7C328D17D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACE09718-A194-40E5-8CD1-87E7C328D17D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42321650-35D5-4C8F-98CD-DE271B1C018F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42321650-35D5-4C8F-98CD-DE271B1C018F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42321650-35D5-4C8F-98CD-DE271B1C018F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42321650-35D5-4C8F-98CD-DE271B1C018F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{396FFE33-4FEC-4247-AEAA-4F77D7085272}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{396FFE33-4FEC-4247-AEAA-4F77D7085272}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{396FFE33-4FEC-4247-AEAA-4F77D7085272}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{396FFE33-4FEC-4247-AEAA-4F77D7085272}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46AFD64E-4FEB-4B04-B0A3-D320463185F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46AFD64E-4FEB-4B04-B0A3-D320463185F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46AFD64E-4FEB-4B04-B0A3-D320463185F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46AFD64E-4FEB-4B04-B0A3-D320463185F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7522597-B258-490A-9687-C35964D1F9F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7522597-B258-490A-9687-C35964D1F9F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7522597-B258-490A-9687-C35964D1F9F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7522597-B258-490A-9687-C35964D1F9F7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,50 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Ardalis.GuardClauses" Version="3.2.0"/>
+        <PackageReference Include="AsyncEnumerator" Version="4.0.2"/>
+        <PackageReference Include="CsvHelper" Version="27.1.1"/>
+        <PackageReference Include="EPPlus" Version="5.7.5"/>
+        <PackageReference Include="F23.StringSimilarity" Version="4.1.0"/>
+        <PackageReference Include="GeoCoordinate.NetCore" Version="1.0.0.1"/>
+        <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="9.0.0"/>
+        <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.0-rc.1.21452.10"/>
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.0-rc.1.21452.10">
+            <PrivateAssets>all</PrivateAssets>
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="6.0.0-rc.1.21452.10"/>
+        <PackageReference Include="Microsoft.Extensions.Configuration" Version="6.0.0-rc.1.21451.13"/>
+        <PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="6.0.0-rc.1.21451.13"/>
+        <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="6.0.0-rc.1.21451.13"/>
+        <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.0-rc.1.21451.13"/>
+        <PackageReference Include="Microsoft.Extensions.ML" Version="1.6.0"/>
+        <PackageReference Include="Microsoft.ML" Version="1.6.0"/>
+        <PackageReference Include="Microsoft.ML.LightGbm" Version="1.6.0"/>
+        <PackageReference Include="Spectre.Cli.Extensions.DependencyInjection" Version="0.4.0"/>
+        <PackageReference Include="Spectre.Console" Version="0.42.0"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Update="appsettings.json">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\Railsense.Core\Railsense.Core.csproj"/>
+        <ProjectReference Include="..\Railsense.Data\Railsense.Data.csproj"/>
+        <ProjectReference Include="..\Railsense.Geospatial\Railsense.Geospatial.csproj"/>
+        <ProjectReference Include="..\Railsense.Mediator\Railsense.Mediator.csproj"/>
+        <ProjectReference Include="..\Railsense.Neural\Railsense.Neural.csproj"/>
+    </ItemGroup>
+
+</Project>
